@@ -22,7 +22,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 >  "codename": {"hotkey": "shortcut", "type": "type", "func": "(main)function name", "running": "whether to start by default"}
 
-### 在发行(Release)中：
+**在发行(Release)中：**
 
 - Star-Rail_Auto_Dialog 的zip压缩包为直接打包的源代码程序。
 - Star-Rail_Auto_Dialog_Excutable 的zip压缩包为由代码打包好的exe可执行程序。
