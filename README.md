@@ -20,7 +20,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 在`recognition.py`代码里643到651行中的_register_functions函数里可以设置哪些功能在程序启动时是否为默认启动状态。
 
 
->  "代号": {"hotkey": "快捷键", "type": "类型", "func": "(主)函数名称", "running": "是否默认启动"}
+>  "代号": {"hotkey": "快捷键", "type": "类型（TOGGLE或ONCE）", "func": "(主)函数名称", "running": "是否默认启动"}
 
 **在发行(Releases)中：**
 
