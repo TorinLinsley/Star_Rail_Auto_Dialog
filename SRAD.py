@@ -641,7 +641,7 @@ class HotkeyManager:
         self._start_console_refresh_thread()
 
     def _register_functions(self) -> None:
-        self.functions: Dict[str, Dict[str, Any]] = { # "代号": {"hotkey": "快捷键", "type": "类型", "func": "(主)函数名称", "running": "是否默认启动"}
+        self.functions: Dict[str, Dict[str, Any]] = { # "代号": {"hotkey": "快捷键", "type": "类型（TOGGLE 或 ONCE）", "func": "(主)函数名称", "running": "是否默认启动"}
             "跳过剧情": {"hotkey": "U", "type": "TOGGLE", "func": test1, "running": False},
             "跳过获得物品界面": {"hotkey": "I", "type": "TOGGLE", "func": test2, "running": False},
             "点击进入游戏": {"hotkey": "O", "type": "TOGGLE", "func": test3, "running": True},
@@ -815,4 +815,5 @@ if __name__ == "__main__":
         keyboard.unhook_all()
         clear_console()
         print("程序已安全退出！")
+
         sys.exit(0)
