@@ -15,8 +15,14 @@
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-### 其它说明
+## 其它说明
 
 在`recognition.py`代码里643到651行中的_register_functions函数里可以设置哪些功能在程序启动时是否为默认启动状态。
 
-> // "代号": {"hotkey": "快捷键", "type": "类型", "func": "(主)函数名称", "running": "是否默认启动"}
+
+>  "codename": {"hotkey": "shortcut", "type": "type", "func": "(main)function name", "running": "whether to start by default"}
+
+### 在发行(Release)中：
+
+- Star-Rail_Auto_Dialog 的zip压缩包为直接打包的源代码程序。
+- Star-Rail_Auto_Dialog_Excutable 的zip压缩包为由代码打包好的exe可执行程序。
