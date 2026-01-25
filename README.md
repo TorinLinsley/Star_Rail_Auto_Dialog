@@ -21,8 +21,3 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 >  "代号": {"hotkey": "快捷键", "type": "类型（TOGGLE或ONCE）", "func": "(主)函数名称", "running": "是否默认启动"}
-
-**在发行(Releases)中：**
-
-- Star-Rail_Auto_Dialog 的zip压缩包为直接打包的源代码程序。（推荐，如果需要修改按键配置之类的话 目前只能在代码中修改）
-- Star-Rail_Auto_Dialog_Excutable 的zip压缩包为由代码打包好的exe可执行程序。
