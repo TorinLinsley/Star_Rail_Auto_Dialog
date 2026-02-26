@@ -14,7 +14,7 @@
 7. **点击再来一次** | 快捷键：L | 刷材料战斗成功后的界面出现的两个按钮，自动点击再来一次。
 
 ## 下载安装
-在发行（Release）中选择`Star-Rail_Auto_Dialog_Excutable_版本号.zip`或者`Star-Rail_Auto_Dialog_版本号zip`下载，解压之后使用。
+在发行（Release）中选择`Star-Rail_Auto_Dialog_Excutable_版本号.zip`或者`Star-Rail_Auto_Dialog_版本号.zip`下载，解压之后使用。
 
 - 带 Excutable 字样的是 已打包成可执行程序的，不安装Python环境也能运行。
 - 没有 Excutable 字样的是 Python的源代码程序，需要有Python环境才能运行。（并需要安装下方提到的依赖的包）
