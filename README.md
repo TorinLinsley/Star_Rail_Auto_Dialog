@@ -17,7 +17,7 @@
 在发行（Release）中选择`Star-Rail_Auto_Dialog_Excutable_版本号.zip`或者`Star-Rail_Auto_Dialog_版本号.zip`下载，解压之后使用。
 
 - 带 Excutable 字样的是 已打包成可执行程序的，不安装Python环境也能运行。
-- 没有 Excutable 字样的是 Python的源代码程序，需要有Python环境才能运行。（并需要安装下方提到的依赖的包）
+- 没有 Excutable 字样的是 Python的源代码程序，需要有Python环境才能运行。（并需要安装下方提到的依赖的包，requirements.txt文件已打包在内）
 
 ## 注意事项
 - **跳过剧情功能 建议仅在过剧情对话时开启**，点击跳过按钮、跳过剧情确认弹窗靠的是识别确认按钮的按钮内区域，如果是其它界面可能也会自动点。
@@ -25,7 +25,7 @@
 
 运行脚本前确保安装了`requirements.txt`中提到的库，不然不能正常运行脚本。
 
-需要安装的话可以使用以下命令安装`requirements.txt`写到的库：（在`requirements.txt`所在位置打开终端/cmd执行）
+需要安装的话可以使用以下命令安装`requirements.txt`写到的库：（在`requirements.txt`所在位置打开终端/cmd执行），requirements.txt文件已打包在`Star-Rail_Auto_Dialog_版本号.zip`
 
 ```bash
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
